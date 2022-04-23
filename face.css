@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background:  rgb(240, 242, 245);
+}
+
+#logo{
+    width: 302px;
+    margin-top: 11em;
+    margin-left: 8.2em;
+}
+
+#mkt{
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin-left: 5.6em;
+    font-weight: normal;
+    line-height: 35px;
+    width: 500px;
+    line-height: 32px;
+    padding: 0 0 20px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 15em;
+      
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    max-height: 350px;
+    min-height: 20vh;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 .2rem rgb(207, 207, 207),
+                0 0 .2rem #fff,
+                0 0 1.2rem #cacaca;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input{
+    outline: unset;
+    padding: 20px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(170, 169, 170, 0.555);
+    border-radius: 5px;
+}
+
+form ::placeholder{
+    font-size: 17px;
+}
+
+form input:focus{
+    border: 1px solid #187bfc;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #639ce6;
+}
+
+form button{
+    outline: unset;
+    padding: 20px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #166fe5;
+    font-size: 15px;
+    color: white; 
+}
+
+
+.uai{
+    font-size: 15px;
+    display: flex;
+    margin-top: 15px;
+}
